@@ -4,10 +4,11 @@
 
 body {
     display: flex;
-    height: 100%;
-    margin-top: 30%;
+    /* height: 100%; */
+    /* margin-top: 30%; */
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 [class*="box-"] {
@@ -36,6 +37,10 @@ body {
 
 .dot-1 {
     justify-content: center;
+}
+
+.box-2 {
+    justify-content: space-between;
 }
 
 .dot-2 {
