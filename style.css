@@ -1,0 +1,57 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    display: flex;
+    height: 100%;
+    margin-top: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+[class*="box-"] {
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15%;
+    justify-content: center;
+    display: flex;
+}
+
+.box-1 {
+    align-items: center;
+}
+
+
+[class*="dot-"] {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 5px
+}
+
+.dot-1 {
+    justify-content: center;
+}
+
+.dot-2 {
+    transform: translateY(0px);
+}
+.dot-2-1 {
+    transform: translateY(50px);
+    transform: translateX(1);
+}
+
+.dot-3-1 {
+    transform: translateY(20px);
+    transform: translateX(10);
+}
+
+.dot-3-2 {
+    transform: translateY(50px);
+    transform: translateX(10);
+}
